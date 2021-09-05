@@ -69,12 +69,12 @@ let colorCSS = `
 	`;
 let componentCSS = `
 /** btn color **/
-.tm-btn.color-key{color: "color" !important;border-color: "color" !important;background-color: #FFFFFF !important;}
+.tm-btn.color-key{color: "color" !important;border-color: "color" !important;} /**background-color: #FFFFFF !important;**/
 /** btn background color **/
 .tm-btn.bg-key{color: #FFFFFF !important;border-color: "color" !important;background-color: "color" !important;}
 
 /** nav color **/
-.tm-nav.color-key{color: "color" !important;border-color: "color" !important;background-color: #FFFFFF !important;}
+.tm-nav.color-key{color: "color" !important;border-color: "color" !important;}/**background-color: #FFFFFF !important;**/
 /** nav background color **/
 .tm-nav.bg-key{color: #FFFFFF !important;border-color: "color" !important;background-color: "color" !important;}
 	`;
