@@ -19,6 +19,7 @@
         <el-menu-item index="/components/btn">Btn</el-menu-item>
         <el-menu-item index="/components/link">Link</el-menu-item>
         <el-menu-item index="/components/nav">Nav</el-menu-item>
+        <el-menu-item index="/components/layout">Layout</el-menu-item>
       </el-submenu>
     </el-menu>
   </div>

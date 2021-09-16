@@ -5,6 +5,7 @@ import Link from './components/Link.vue';
 import Col from './components/Col.vue';
 import Row from './components/Row.vue';
 import Layout from './components/Layout.vue';
+import LayoutBar from './components/LayoutBar.vue';
 import Panel from './components/Panel.vue';
 import Header from './components/Header.vue';
 import Body from './components/Body.vue';
@@ -23,8 +24,9 @@ import './style/base.css';
 import './style/make.css';
 import './style/nav.css';
 import './style/frame.css';
+import './style/layout.css';
 
-const components = [Color, Btn, Link, Col, Row, Layout, Panel, Header, Body, Nav, NavItem, NavSub, Frame, FrameMain, FrameHeader, FrameFooter, FramePart];
+const components = [Color, Btn, Link, Col, Row, Layout, LayoutBar, Panel, Header, Body, Nav, NavItem, NavSub, Frame, FrameMain, FrameHeader, FrameFooter, FramePart];
 
 const install = function (Vue, options) {
   components.forEach(component => {

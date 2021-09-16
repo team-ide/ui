@@ -145,8 +145,6 @@
 
 .tm-col {display: block;border: 1px solid transparent;}
 
-.tm-layout {display: block;padding: 10px;border: 1px solid transparent;}
-
 .tm-panel {display: block;border: 1px solid #ddd;border-radius: 3px;margin-bottom: 20px;}
 .tm-panel-header {
     color: #545454;

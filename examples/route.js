@@ -8,6 +8,7 @@ import Color from './docs/components/color.md'
 import Btn from './docs/components/btn.md'
 import Link from './docs/components/link.md'
 import Nav from './docs/components/nav.md'
+import Layout from './docs/components/layout.md'
 const routes = [
   {
     path: '/',
@@ -49,6 +50,10 @@ const routes = [
   {
     path: '/components/nav',
     component: Nav
+  },
+  {
+    path: '/components/layout',
+    component: Layout
   }
 ]
 
