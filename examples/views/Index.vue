@@ -1,6 +1,6 @@
 <template>
-  <div id="app">
-    <router-view></router-view>
+  <div>
+    <tm-btn color="#ababab">sss</tm-btn>
   </div>
 </template>
 
@@ -20,23 +20,8 @@ export default {
   created() {},
   // el 被新创建的 vm.$el 替换，并挂载到实例上去之后调用
   mounted() {},
-  destroyed() {},
 };
 </script>
 
 <style>
-html,
-body {
-  height: 100%;
-  width: 100%;
-}
-#app {
-  height: 100%;
-  width: 100%;
-}
-*,
-:after,
-:before {
-  box-sizing: border-box;
-}
 </style>

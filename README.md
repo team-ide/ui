@@ -1,29 +1,24 @@
-# Vue Team IDE UI
+# vue-demo
 
-Vue Team IDE UI Component
-
-## Dev
-
-```shell
-npm run dev
+## Project setup
+```
+npm install
 ```
 
-## Build
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-```shell
+### Compiles and minifies for production
+```
 npm run build
-
-npm run build_example
 ```
 
-## Publish
-
-```shell
-npm publish
+### Lints and fixes files
+```
+npm run lint
 ```
 
-## Install
-
-```shell
-npm install teamide-ui
-```
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
