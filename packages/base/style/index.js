@@ -108,6 +108,9 @@ style.getComponentCSS = function (one) {
 		var key = name;
 		if (index > 0) {
 			key = name + '-' + index;
+			// return;
+		}
+		if (index >= colors.length - 1) {
 			return;
 		}
 		var whiteColor = "";
@@ -119,7 +122,7 @@ style.getComponentCSS = function (one) {
 			if (index == 0 || index == 5) {
 				activeColor = colors[8];
 			} else {
-				activeColor = colors[0];
+				activeColor = colors[index + 1];
 			}
 		}
 
@@ -143,6 +146,9 @@ style.getComponentActiveCSS = function (one) {
 		var key = name;
 		if (index > 0) {
 			key = name + '-' + index;
+			// return;
+		}
+		if (index >= colors.length - 1) {
 			return;
 		}
 		var whiteColor = "";
@@ -154,7 +160,7 @@ style.getComponentActiveCSS = function (one) {
 			if (index == 0 || index == 5) {
 				activeColor = colors[8];
 			} else {
-				activeColor = colors[0];
+				activeColor = colors[index + 1];
 			}
 		}
 

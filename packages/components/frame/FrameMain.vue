@@ -18,11 +18,12 @@ export default {
     styleObject() {
       if (this.$parent && this.$parent.isFrmae) {
       }
-    }
+      return {};
+    },
   },
   watch: {},
   methods: {},
   mounted() {},
-  destroyed() {}
+  destroyed() {},
 };
 </script>
