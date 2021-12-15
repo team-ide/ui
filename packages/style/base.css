@@ -46,6 +46,16 @@
 .text-underline{text-decoration: underline !important;}
 .text-line-through{text-decoration: line-through !important;}
 
+.ft-100{font-weight: 100 !important;}
+.ft-200{font-weight: 200 !important;}
+.ft-300{font-weight: 300 !important;}
+.ft-400{font-weight: 400 !important;}
+.ft-500{font-weight: 500 !important;}
+.ft-600{font-weight: 600 !important;}
+.ft-700{font-weight: 700 !important;}
+.ft-800{font-weight: 800 !important;}
+.ft-900{font-weight: 900 !important;}
+
 .bd, .bdt, .bdtb {border-top: 1px solid #ddd;}
 .bd-none, .bdt-none, .bdtb-none {border-top: none;}
 
